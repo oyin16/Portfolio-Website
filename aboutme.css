@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container1 {
+    background-image: url(images/642f00be50750c2570b1e3fa3f2d39b3735415dc.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* height: 967.3px; */
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    /* overflow: hidden; */
+
+}
+
+.cont1 {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+
+.logo {
+    font-family: "DM Sans", sans-serif;
+    color: white;
+
+    /* width: 132px;
+    max-width: 100%; */
+}
+
+.logo-top {
+    display: flex;
+    gap: 5px;
+}
+
+.name {
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: 1px
+}
+
+.last {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.tm {
+    font-size: 12px;
+    font-weight: 700;
+    /* padding: 4px 6px;             */
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.hamburger-menu {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.menu {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #FFFFFF;
+}
+
+.button1 {
+    background: linear-gradient(to right, #FF3B3B, #FFE5D0);
+    border: none;
+    display: flex;
+    width: 200.72000122070312px;
+    height: 48px;
+    opacity: 1px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.smallhead {
+    display: flex;
+    gap: 80px;
+}
+
+.ham {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+header {
+    padding-inline: 40px;
+    padding-block: 30px;
+    background-color: black;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    /* margin: 0 auto;
+    width: 90%; */
+}
+
+/* section 2 */
+.container2{
+    width: 100%;
+    max-width: 1440px;
+     background-image: url(images/642f00be50750c2570b1e3fa3f2d39b3735415dc.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+
+.cont2{
+    max-width:  1360px;
+    width: 100%; 
+    text-align: center;
+    margin: 0 auto;
+}
+
+.cont2 h3{
+font-family: "DM Sans", sans-serif;
+font-weight: 600;
+font-style: Italic;
+font-size: 100px;
+line-height: 110px;
+letter-spacing: -7px;
+vertical-align: middle;
+color: var(--color-white-solid, #FFFFFF);
+/* width: 381px; */
+
+}
