@@ -1500,3 +1500,25 @@ max-width: 1320px;
 margin: 0 auto;
 align-self: center;
 }
+
+.expandable {
+  display: inline-flex;
+  /* width: 100px; */
+  transition: width 0.3s ease;
+  /* background-color: #3498db; */
+  color: white;
+  text-align: center;
+  /* . */
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.expandable.expanded {
+  width: 100px; 
+}
+ .expandable:hover{color: grey;
+    text-decoration: underline;
+    cursor: pointer;
+    text-decoration-style: solid;
+
+ }
